@@ -13,5 +13,9 @@ export const GlobalStyle = createGlobalStyle`
         background: ${({ theme }) => theme.backgrounds.whiteLilac};
         font-family: "Inter", sans-serif;
         padding: 119px;
+
+        @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+            padding: 21px;
+        }
     }
 `;

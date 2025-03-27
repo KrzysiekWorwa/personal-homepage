@@ -8,5 +8,10 @@ export const themeLight = {
     backgrounds: {
         white: "#FFFFFF",
         whiteLilac: "#FBFBFE",
+    },
+    breakpoints: {
+        mobileMax: 767,
+        tabletVerticalMax: 991,
+        TabletHorizontalMax: 1199,
     }
 }
