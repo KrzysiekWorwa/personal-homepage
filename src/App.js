@@ -1,9 +1,9 @@
 import { ThemeProvider } from "styled-components";
 import { themeLight } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
-import { Container } from "./Components/Container";
-import { Image, HeaderTile, Content, Title, Caption, Description } from "./Components/HeaderTile";
-import image from "./Components/Images/zdjecie.jpg"
+import { Container } from "./components/Container";
+import { Image, HeaderTile, Content, Title, Caption, Description } from "./components/HeaderTile";
+import image from "./components/Images/zdjecie.jpg"
 
 function App() {
   return (
