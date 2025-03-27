@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: #eee;
+        background: ${({theme}) => theme.colors.whiteLilac};
         font-family: "Inter", sans-serif;
     }
 `;
