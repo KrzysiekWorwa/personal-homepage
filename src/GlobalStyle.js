@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: ${({theme}) => theme.colors.whiteLilac};
+        background: ${({ theme }) => theme.backgrounds.whiteLilac};
         font-family: "Inter", sans-serif;
+        padding: 119px;
     }
 `;
