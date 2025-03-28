@@ -27,5 +27,4 @@ export const SectionTitle = styled.h2`
 
 export const Body = styled.div`
     padding: 20px;
-    max-height: 256px;
 `;
