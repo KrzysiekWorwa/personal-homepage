@@ -58,6 +58,7 @@ color: white;
 font-size: 20px;
 font-weight: 600;
 border: 1px solid;
+border-color: ${({ theme }) => theme.colors.buttonLink.buttonBackground};
 border-radius: 4px;
 padding: 12px 16px;
 display: flex;

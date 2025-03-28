@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "Inter", sans-serif;
         padding: 119px;
         color: ${({ theme }) => theme.colors.body.text};
+        transition: background 0.3s;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             padding: 21px;
