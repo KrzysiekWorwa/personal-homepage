@@ -1,80 +1,28 @@
-import styled from "styled-components";
+import {
+    HeaderBox,
+    HeaderButton,
+    HeaderCaption,
+    HeaderContent,
+    HeaderDescription,
+    HeaderImage,
+    HeaderTitle
+} from "./styled";
+import image from "./Images/zdjecie.jpg"
+import icon from "./Images/icon.png"
 
-export const HeaderTile = styled.article`
-display: grid;
-grid-template-columns: auto 1fr;
-grid-gap: 72px;
-align-items: center;
 
-@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        grid-template-columns: 1fr; 
-        grid-template-rows: auto auto; 
-        grid-gap: 16px;
-    }
-`;
+const HeaderTile = () => (
 
-export const HeaderImage = styled.img`
-    width: clamp(128px, 30vw, 384px);
-    height: clamp(128px, 30vw, 384px);
-border-radius: 50%;
+    <HeaderBox>
+        <HeaderImage src={image} alt="Author photo" />
+        <HeaderContent>
+            <HeaderCaption>THIS IS</HeaderCaption>
+            <HeaderTitle>Krzysztof Worwa</HeaderTitle>
+            <HeaderDescription>I'm a passionate Junior Frontend Developer also in love in 3D Graphics. Currently looking for new job opportunities.</HeaderDescription>
+            <HeaderButton href="mailto:worwak1998@gmail.com">
+                <img src={icon} alt="" />Hire Me</HeaderButton>
+        </HeaderContent>
+    </HeaderBox>
+);
 
-@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    width: 128px;
-    height: 128px;
-    text-align: center;
-}
-`;
-
-export const HeaderContent = styled.div``;
-
-export const HeaderCaption = styled.p`
-font-size: 12px;
-font-weight: 700;
-color: ${({ theme }) => theme.colors.slateGray};
-`;
-
-export const HeaderTitle = styled.h1`
-font-size: 38px;
-font-weight: 900;
-color: ${({ theme }) => theme.colors.mineShaft};
-margin: 0;
-@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-font-size: 22px;
-}
-`;
-
-export const HeaderDescription = styled.p`
-font-size: 20px;
-font-weight: 400;
-letter-spacing: 5%;
-color: ${({ theme }) => theme.colors.slateGray};
-`;
-
-export const HeaderButton = styled.a`
-background: ${({ theme }) => theme.backgrounds.scienceBlue};
-color: ${({ theme }) => theme.colors.white};
-font-size: 20px;
-font-weight: 600;
-border: 1px solid;
-border-radius: 4px;
-padding: 12px 16px;
-display: flex;
-align-items: center;
-gap: 16px;
-cursor: pointer;
-text-decoration: none;
-max-width: 154px;
-
-&:hover {
-        border-color: ${({ theme }) => theme.colors.anakiwa};
-    }
-
-    img {
-    width: 24px;
-    height: 24px;
-  }
-
-@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-font-size: 18px;
-}
-`;
+export default HeaderTile;
