@@ -9,7 +9,6 @@ export const StyledList = styled.ul`
     grid-gap: 8px 32px;
     grid-template-columns: repeat(3, 1fr);
     font-size: 18px;
-    color: ${({theme}) => theme.colors.slateGray};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;

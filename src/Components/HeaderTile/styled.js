@@ -30,13 +30,12 @@ export const HeaderContent = styled.div``;
 export const HeaderCaption = styled.p`
 font-size: 12px;
 font-weight: 700;
-color: ${({ theme }) => theme.colors.slateGray};
 `;
 
 export const HeaderTitle = styled.h1`
 font-size: 38px;
 font-weight: 900;
-color: ${({ theme }) => theme.colors.mineShaft};
+color: ${({ theme }) => theme.colors.textPrimary};
 margin: 0;
 @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
 font-size: 22px;
@@ -47,7 +46,6 @@ export const HeaderDescription = styled.p`
 font-size: 20px;
 font-weight: 400;
 letter-spacing: 5%;
-color: ${({ theme }) => theme.colors.slateGray};
 
 @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 17px;
@@ -55,8 +53,8 @@ color: ${({ theme }) => theme.colors.slateGray};
 `;
 
 export const HeaderButton = styled.a`
-background: ${({ theme }) => theme.backgrounds.scienceBlue};
-color: ${({ theme }) => theme.colors.white};
+background: ${({ theme }) => theme.colors.buttonLink.buttonBackground};
+color: white;
 font-size: 20px;
 font-weight: 600;
 border: 1px solid;
@@ -70,7 +68,7 @@ text-decoration: none;
 max-width: 154px;
 
 &:hover {
-        border-color: ${({ theme }) => theme.colors.anakiwa};
+        border-color: ${({ theme }) => theme.colors.buttonLink.buttonHover};
     }
 
     img {

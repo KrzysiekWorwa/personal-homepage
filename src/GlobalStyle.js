@@ -10,9 +10,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: ${({ theme }) => theme.backgrounds.whiteLilac};
+        background: ${({ theme }) => theme.colors.body.background};
         font-family: "Inter", sans-serif;
         padding: 119px;
+        color: ${({ theme }) => theme.colors.body.text};
 
         @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             padding: 21px;
