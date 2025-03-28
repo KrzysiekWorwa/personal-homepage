@@ -10,7 +10,6 @@ import {
 import image from "./Images/zdjecie.jpg"
 import icon from "./Images/icon.png"
 
-
 const HeaderTile = () => (
 
     <HeaderBox>

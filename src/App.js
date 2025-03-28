@@ -3,6 +3,7 @@ import { themeLight } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import { Container } from "./components/Container";
 import HeaderTile from "./components/HeaderTile/index";
+import Tile from "./components/Tile";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <GlobalStyle />
       <Container>
         <HeaderTile />
+        <Tile />
       </Container>
     </ThemeProvider>
   );
