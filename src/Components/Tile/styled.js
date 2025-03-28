@@ -4,6 +4,10 @@ export const SectionBody = styled.section`
     background-color: ${({ theme }) => theme.colors.white};
     margin: 72px 0px;
     box-shadow: 0 0 5px #ddd;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin: 48px 0px; 
+    }
 `;
 
 export const SectionHeader = styled.header`
@@ -23,6 +27,10 @@ export const SectionTitle = styled.h2`
     font-weight: 900;
     color: ${({theme}) => theme.colors.mineShaft};
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 18px;;
+    }
 `;
 
 export const Body = styled.div`

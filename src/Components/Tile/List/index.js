@@ -1,64 +1,12 @@
 import { StyledList, Item } from "./styled";
 
-const List = () => (
+const List = ({ skills }) => (
     <StyledList>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            lalalal
-        </Item>
-        <Item>
-            nininin
-        </Item>
-        <Item>
-            lalalal
-        </Item>
+        {skills.map(skill => (
+            <Item key={skill}>
+                {skill}
+            </Item>
+        ))}
     </StyledList>
 );
 
