@@ -4,6 +4,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import { Container } from "./components/Container";
 import HeaderTile from "./components/HeaderTile/index";
 import Tile from "./components/Tile";
+import List from "./components/Tile/List";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <GlobalStyle />
       <Container>
         <HeaderTile />
-        <Tile />
+        <Tile title="My skillset includes 🛠️" body={<List />}/>
       </Container>
     </ThemeProvider>
   );

@@ -1,15 +1,16 @@
 import { SectionBody, SectionHeader,SectionUnderline, SectionTitle, Body } from "./styled";
 
-const Tile = () => (
+const Tile = ({title, body}) => (
 
     <SectionBody>
         <SectionHeader>
             <SectionTitle>
-                My skillset includes 🛠️
+                {title}
             </SectionTitle>
             <SectionUnderline />
         </SectionHeader>
         <Body>
+            {body}
         </Body>
     </SectionBody>
 

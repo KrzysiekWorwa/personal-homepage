@@ -9,10 +9,10 @@ export const SectionBody = styled.section`
 export const SectionHeader = styled.header`
     align-items: center;
     padding: 32px;
+    padding-bottom: 0;
 `;
 
 export const SectionUnderline = styled.div`
-    width: 100%;
     height: 1px;
     background-color: #ddd;
     margin: 10px auto 0;
@@ -27,4 +27,5 @@ export const SectionTitle = styled.h2`
 
 export const Body = styled.div`
     padding: 20px;
+    max-height: 256px;
 `;
