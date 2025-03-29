@@ -37,6 +37,7 @@ font-size: 38px;
 font-weight: 900;
 color: ${({ theme }) => theme.colors.textPrimary};
 margin: 0;
+
 @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
 font-size: 22px;
 }

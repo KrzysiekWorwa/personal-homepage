@@ -23,7 +23,8 @@ export const themeLight = {
         themeSwitch: {
             boxBackground: "#E5E5E5",
             icon: "#FFFFFF",
-        }
+        },
+        portfolioIcon: "#0366D6",
     },
 };
 
@@ -46,7 +47,8 @@ export const themeDark = {
         themeSwitch: {
             boxBackground: "#6D6C6C",
             icon: "#252525",
-        }
+        },
+        portfolioIcon: "#2188FF",
     },
 };
 

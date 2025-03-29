@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "./common/themeSlice";
 import { themeDark, themeLight } from "./theme"
 import { ThemeProvider } from "styled-components";
+import Portfolio from "./components/Portfolio";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <HeaderTile />
         <Tile title="My skillset includes 🛠️" body={<List skills={skills} />} />
         <Tile title="What I want to learn next 🚀" body={<List skills={nextSkills} />} />
+        <Portfolio></Portfolio>
       </Container>
     </ThemeProvider>
   );
