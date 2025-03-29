@@ -25,6 +25,7 @@ export const themeLight = {
             icon: "#FFFFFF",
         },
         portfolioIcon: "#0366D6",
+        boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
     },
 };
 
@@ -49,6 +50,7 @@ export const themeDark = {
             icon: "#252525",
         },
         portfolioIcon: "#2188FF",
+        boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
     },
 };
 
