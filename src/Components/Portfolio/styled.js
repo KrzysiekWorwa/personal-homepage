@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { ReactComponent as GitIcon } from "./gitIcon.svg";
 
-export const PortfolioBox = styled.article`
+export const PortfolioSection = styled.section`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 32px;
@@ -9,7 +9,7 @@ export const PortfolioBox = styled.article`
     justify-content: center;
 `;
 
-export const PortfolioContent = styled.div`
+export const PortfolioHeader = styled.div`
     grid-column: span 2;
     justify-content: center;
     display: flex;
@@ -28,4 +28,11 @@ font-size: 30px;
 font-weight: 900;
 color: ${({ theme }) => theme.colors.textPrimary};
 margin: 8px;
+`;
+
+export const PortfolioSubTitle = styled.h3`
+font-size: 20px;
+font-weight: 400;
+color: ${({ theme }) => theme.colors.textPrimary};
+margin: 0;
 `;

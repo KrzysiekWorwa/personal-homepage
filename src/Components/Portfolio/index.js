@@ -1,13 +1,14 @@
-import { PortfolioBox, PortfolioContent, PortfolioIcon, PortfolioTitle } from "./styled";
+import { PortfolioHeader, PortfolioIcon, PortfolioSection, PortfolioSubTitle, PortfolioTitle } from "./styled";
 
 const Portfolio = () => (
 
-    <PortfolioBox>
-        <PortfolioContent>
+    <PortfolioSection>
+        <PortfolioHeader>
             <PortfolioIcon></PortfolioIcon>
             <PortfolioTitle>Portfolio</PortfolioTitle>
-        </PortfolioContent>
-    </PortfolioBox>
+            <PortfolioSubTitle>My recent projects</PortfolioSubTitle>
+        </PortfolioHeader>
+    </PortfolioSection>
 );
 
 export default Portfolio;
