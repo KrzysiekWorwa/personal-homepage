@@ -5,6 +5,7 @@ export const SectionBody = styled.section`
     margin: 72px 0px;
     box-shadow: ${({ theme }) => theme.colors.boxShadow};
     border-radius: 4px;
+    transition: background 0.3s;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin: 48px 0px; 

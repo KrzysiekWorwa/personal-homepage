@@ -23,6 +23,7 @@ export const Box = styled.span`
     border-radius: 12px;
     border: 1px solid;
     display: flex;
+    transition: background 0.3s;
 `;
 
 export const Text = styled.span`
