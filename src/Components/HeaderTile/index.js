@@ -7,7 +7,7 @@ import {
     HeaderImage,
     HeaderTitle
 } from "./styled";
-import image from "./Images/zdjecie.jpg"
+import image from "./Images/zdjecie2.png"
 import icon from "./Images/icon.png"
 
 const HeaderTile = () => (

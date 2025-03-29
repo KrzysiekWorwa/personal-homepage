@@ -18,7 +18,12 @@ export const themeLight = {
         },
         tile: {
             tileBackground: "#FFFFFF",
+            tileShadow: "#ddd",
         },
+        themeSwitch: {
+            boxBackground: "#E5E5E5",
+            icon: "#FFFFFF",
+        }
     },
 };
 
@@ -36,7 +41,12 @@ export const themeDark = {
         },
         tile: {
             tileBackground: "rgba(54, 54, 54, 0.72)",
+            tileShadow: "#090A33",
         },
+        themeSwitch: {
+            boxBackground: "#6D6C6C",
+            icon: "#252525",
+        }
     },
 };
 

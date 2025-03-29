@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SectionBody = styled.section`
     background-color: ${({ theme }) => theme.colors.tile.tileBackground};
     margin: 72px 0px;
-    box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 5px ${({ theme }) => theme.colors.tile.tileShadow};
     border-radius: 4px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
