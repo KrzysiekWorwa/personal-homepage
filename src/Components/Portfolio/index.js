@@ -4,7 +4,7 @@ const Portfolio = () => (
 
     <PortfolioSection>
         <PortfolioHeader>
-            <PortfolioIcon></PortfolioIcon>
+            <PortfolioIcon />
             <PortfolioTitle>Portfolio</PortfolioTitle>
             <PortfolioSubTitle>My recent projects</PortfolioSubTitle>
         </PortfolioHeader>
