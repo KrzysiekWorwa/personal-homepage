@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { githubUsername } from "./githubUsername";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "../../features/personalHomepage/personalHomepageSlice";
+import { Content } from "./Content";
 
 const Portfolio = () => {
 
@@ -24,7 +25,7 @@ const Portfolio = () => {
                 <PortfolioSubTitle>My recent projects</PortfolioSubTitle>
             </PortfolioHeader>
 
-            <PortfolioContent
+            <Content
                 status={repositoriesStatus}
                 repositories={repositories}
             />
