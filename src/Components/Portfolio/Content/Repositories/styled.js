@@ -31,3 +31,59 @@ export const Tile = styled.li`
         padding: 20px;
     }
 `;
+
+export const Name = styled.h3`
+    color: rgba(3, 102, 214, 1);
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 16px;
+    }
+`;
+
+export const Description = styled.p`
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 1.4;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin-top: 16px;
+        font-size: 14px;
+    }
+`;
+
+export const Links = styled.dl`
+    margin-top: 24px;
+    margin-bottom:0;
+    display: grid;
+    grid-gap: 8px;
+    line-height: 1.6;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin-top: 16px;
+        font-size: 14px;
+    }
+`;
+
+export const LinksRow = styled.div`
+    display: grid;
+    grid-template-columns: 4em 1fr;
+`;
+
+export const LinksValue = styled.dd`
+    margin: 0;
+`;
+
+export const Link = styled.a`
+    color: rgba(3, 102, 214, 1);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(3, 102, 214, 1);
+    padding-bottom: 1px;
+
+    &:hover {
+        border-color: unset;
+    }
+`;
