@@ -12,7 +12,7 @@ const personalHomepageSlice = createSlice({
             repositories: null,
         }),
         fetchRepositoriesSuccess: (_, { payload: repositories }) => ({
-            status: "succes",
+            status: "success",
             repositories,
         }),
         fetchRepositoriesError: () => ({

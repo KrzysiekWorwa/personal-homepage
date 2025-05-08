@@ -22,7 +22,7 @@ function App() {
         <HeaderTile />
         <Tile title="My skillset includes 🛠️" body={<List skills={skills} />} />
         <Tile title="What I want to learn next 🚀" body={<List skills={nextSkills} />} />
-        <Portfolio></Portfolio>
+        <Portfolio />
       </Container>
     </ThemeProvider>
   );
