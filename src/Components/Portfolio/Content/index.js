@@ -1,4 +1,5 @@
 import { Repositories } from "./Repositories";
+import ErrorBox from "./ErrorBox";
 
 export const Content = ({ status, repositories }) => {
     switch (status) {
@@ -6,6 +7,9 @@ export const Content = ({ status, repositories }) => {
             return null;
 
         case "success":
-            return <Repositories repositories={repositories} />
+            return <Repositories repositories={repositories} />;
+
+        case "Error":
+            return <ErrorBox />
     }
 };
