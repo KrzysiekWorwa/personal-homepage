@@ -10,6 +10,7 @@ import { selectIsDarkTheme } from "./common/themeSlice";
 import { themeDark, themeLight } from "./theme"
 import { ThemeProvider } from "styled-components";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Tile title="My skillset includes 🛠️" body={<List skills={skills} />} />
         <Tile title="What I want to learn next 🚀" body={<List skills={nextSkills} />} />
         <Portfolio />
+        <Footer />
       </Container>
     </ThemeProvider>
   );
