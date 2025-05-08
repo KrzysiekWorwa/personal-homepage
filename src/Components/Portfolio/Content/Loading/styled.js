@@ -11,6 +11,8 @@ export const LoadingWrapper = styled.section`
      margin-top: 88px;
      text-align: center;
      font-size: 20px;
+     display: grid;
+     justify-items: center;
 
      @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 32px;
