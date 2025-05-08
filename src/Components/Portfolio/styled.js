@@ -28,6 +28,10 @@ font-size: 30px;
 font-weight: 900;
 color: ${({ theme }) => theme.colors.textPrimary};
 margin: 8px;
+
+@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 18px;
+    }
 `;
 
 export const PortfolioSubTitle = styled.h3`
