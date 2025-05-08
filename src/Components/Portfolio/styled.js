@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { ReactComponent as GitIcon } from "./gitIcon.svg";
 
 export const PortfolioSection = styled.section`
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 32px;
-    align-items: center;
-    justify-content: center;
-`;
+    margin-top: 72px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin-top: 48px;
+    }
+    `;
 
 export const PortfolioHeader = styled.div`
     grid-column: span 2;
@@ -35,4 +35,8 @@ font-size: 20px;
 font-weight: 400;
 color: ${({ theme }) => theme.colors.textPrimary};
 margin: 0;
+
+@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 17px;
+    }
 `;

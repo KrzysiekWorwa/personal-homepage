@@ -23,6 +23,7 @@ export const Tile = styled.li`
     border: 6px solid rgba(209, 213, 218, 0.3);
     transition: background 0.3s;
     transition: border-color 0.3s;
+    margin: 0;
 
     &:hover {
         border-color: rgba(3, 102, 214, 0.2);
@@ -37,7 +38,6 @@ export const Name = styled.h3`
     color: rgba(3, 102, 214, 1);
     font-weight: 700;
     font-size: 24px;
-    padding: 0;
     margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
