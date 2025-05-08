@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import { ReactComponent as GithubIconLink } from "./SvgIcons/githubIcon.svg";
+import { ReactComponent as FacebookIconLink } from "./SvgIcons/facebookIcon.svg";
+import { ReactComponent as LinkedinIconLink } from "./SvgIcons/linkedinIcon.svg";
+import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.svg";
 
 export const FooterSection = styled.footer`
     margin-top: 120px;
@@ -52,4 +56,59 @@ export const Info = styled.p`
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 14px;
 }
+`;
+
+export const IconsWrapper = styled.div`
+    display: flex;
+    gap: 24px;
+    margin-top: 56px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin: 40px 0;
+        gap: 16px;
+}
+`;
+
+export const GithubIcon = styled(GithubIconLink)`
+    width: 48px;
+    height: 48px;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    transition: color 0.3s;
+
+        &:hover {
+        color: ${({ theme }) => theme.colors.Link};
+    }
+`;
+
+export const FacebookIcon = styled(FacebookIconLink)`
+    width: 48px;
+    height: 48px;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    transition: color 0.3s;
+
+        &:hover {
+        color: ${({ theme }) => theme.colors.Link};
+    }
+`;
+
+export const LinkedinIcon = styled(LinkedinIconLink)`
+    width: 48px;
+    height: 48px;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    transition: color 0.3s;
+
+        &:hover {
+        color: ${({ theme }) => theme.colors.Link};
+    }
+`;
+
+export const InstagramIcon = styled(InstagramIconLink)`
+    width: 48px;
+    height: 48px;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    transition: color 0.3s;
+
+        &:hover {
+        color: ${({ theme }) => theme.colors.Link};
+    }
 `;
