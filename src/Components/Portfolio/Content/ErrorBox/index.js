@@ -4,7 +4,7 @@ import { githubUsername } from "../../githubUsername"
 const ErrorBox = () => {
     return (
         <Wrapper>
-            <ErrorIcon></ErrorIcon>
+            <ErrorIcon />
             <ErrorTitle>
                 Ooops! Something went wrong...
             </ErrorTitle>

@@ -2,9 +2,10 @@ import styled from "styled-components";
 import { ReactComponent as ErrorSvgIcon } from "./errorIcon.svg"
 
 export const Wrapper = styled.section`
-    margin-top: 88px;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
+
 `;
 
 export const ErrorIcon = styled(ErrorSvgIcon)`
@@ -22,6 +23,7 @@ export const ErrorText = styled.p`
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 32px;
+    line-height: 1.4;
 `;
 
 export const ErrorLinkButton = styled.a`
