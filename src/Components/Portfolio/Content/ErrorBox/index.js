@@ -12,7 +12,7 @@ const ErrorBox = () => {
                 Sorry, failed to load Github projects.<br />
                 You can check them directly on Github.
             </ErrorText>
-            <ErrorLinkButton href={`https://github.com/${githubUsername}`} target="_blank" title="Github repositories">
+            <ErrorLinkButton href={`https://github.com/${githubUsername}`} target="_blank" title="Github repositories" rel="noreferrer">
                 Go to Github
             </ErrorLinkButton>
         </Wrapper>
