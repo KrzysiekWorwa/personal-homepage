@@ -76,6 +76,7 @@ export const LinksRow = styled.div`
 
 export const LinksValue = styled.dd`
     margin: 0;
+    word-break: break-word;
 `;
 
 export const Link = styled.a`
