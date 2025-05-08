@@ -1,19 +1,22 @@
 import { Wrapper, ErrorIcon, ErrorTitle, ErrorText, ErrorLinkButton } from "./styled";
+import { githubUsername } from "../../githubUsername"
 
 const ErrorBox = () => {
-
-    <Wrapper>
-        <ErrorIcon></ErrorIcon>
-        <ErrorTitle>
-            Ooops! Something went wrong...
-        </ErrorTitle>
-        <ErrorText>
-            Sorry, failed to load Github projects. You can check them directly on Github.
-        </ErrorText>
-        <ErrorLinkButton href="https://github.com/KrzysiekWorwa?tab=repositories" title="Github repositories">
-            Go to Github
-        </ErrorLinkButton>
-    </Wrapper>
+    return (
+        <Wrapper>
+            <ErrorIcon></ErrorIcon>
+            <ErrorTitle>
+                Ooops! Something went wrong...
+            </ErrorTitle>
+            <ErrorText>
+                Sorry, failed to load Github projects.<br />
+                You can check them directly on Github.
+            </ErrorText>
+            <ErrorLinkButton href={`https://github.com/${githubUsername}`} target="_blank" title="Github repositories">
+                Go to Github
+            </ErrorLinkButton>
+        </Wrapper>
+    )
 };
 
-export default ErrorBox();
+export default ErrorBox;

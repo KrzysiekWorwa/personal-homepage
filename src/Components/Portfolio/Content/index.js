@@ -2,6 +2,7 @@ import { Repositories } from "./Repositories";
 import ErrorBox from "./ErrorBox";
 
 export const Content = ({ status, repositories }) => {
+    return <ErrorBox />;
     switch (status) {
         case "initial":
             return null;

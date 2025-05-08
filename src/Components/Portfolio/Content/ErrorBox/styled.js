@@ -21,6 +21,7 @@ export const ErrorText = styled.p`
     color: ${({ theme }) => theme.colors.textPrimary};
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 32px;
 `;
 
 export const ErrorLinkButton = styled.a`
@@ -32,12 +33,8 @@ border: 1px solid;
 border-color: ${({ theme }) => theme.colors.buttonLink.buttonBackground};
 border-radius: 4px;
 padding: 12px 16px;
-display: flex;
-align-items: center;
-gap: 16px;
 cursor: pointer;
 text-decoration: none;
-max-width: 154px;
 
 &:hover {
         border-color: ${({ theme }) => theme.colors.buttonLink.buttonHover};
