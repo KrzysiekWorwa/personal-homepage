@@ -26,6 +26,8 @@ export const themeLight = {
         },
         portfolioIcon: "#0366D6",
         boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
+        PortfolioHeader: "#0366D6",
+        Link: "#0366D6",
     },
 };
 
@@ -51,6 +53,8 @@ export const themeDark = {
         },
         portfolioIcon: "#2188FF",
         boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
+        PortfolioHeader: "FFFFFF",
+        Link: "#2188FF",
     },
 };
 

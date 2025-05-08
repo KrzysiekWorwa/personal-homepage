@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { α } from 'color-alpha';
+import colorAlpha from "color-alpha";
 
 export const List = styled.ul`
     display: grid;
@@ -9,7 +9,7 @@ export const List = styled.ul`
     padding: 0;
     margin-top: 24px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    @media (max-width: 991px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
     }
@@ -35,7 +35,7 @@ export const Tile = styled.li`
 `;
 
 export const Name = styled.h3`
-    color: rgba(3, 102, 214, 1);
+    color: ${({ theme }) => theme.colors.PortfolioHeader};
     font-weight: 700;
     font-size: 24px;
     margin: 0;
@@ -80,9 +80,9 @@ export const LinksValue = styled.dd`
 `;
 
 export const Link = styled.a`
-    color: rgba(3, 102, 214, 1);
+    color: ${({ theme }) => theme.colors.Link};
     text-decoration: none;
-    border-bottom: 1px solid rgba(3, 102, 214, 1);
+    border-bottom: 1px solid ${({ theme }) => colorAlpha(theme.colors.Link, 0.3)};
     padding-bottom: 1px;
 
     &:hover {
