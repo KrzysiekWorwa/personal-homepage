@@ -1,4 +1,4 @@
-import { FooterSection, LetsTalk, Adress, EmailWrapper, EmailLink, Info, IconsWrapper, GithubIcon, FacebookIcon, LinkedinIcon, InstagramIcon } from "./styled";
+import { FooterSection, LetsTalk, Adress, EmailWrapper, EmailLink, Info, IconsWrapper, GithubIcon, FacebookIcon, LinkedinIcon, InstagramIcon, ArtStationIcon } from "./styled";
 
 const Footer = () => (
     <FooterSection>
@@ -7,7 +7,7 @@ const Footer = () => (
         </LetsTalk>
         <Adress>
             <EmailWrapper>
-                <EmailLink href="mailto:worwak1998@gmail.com" title="worwak1998@gmail.com">worwak1998@gmail.com</EmailLink>
+                <EmailLink href="mailto:codify.kontakt@gmail.com" title="codify.kontakt@gmail.com">codify.kontakt@gmail.com</EmailLink>
             </EmailWrapper>
             <Info>
                 I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to contact me 🤞
@@ -24,6 +24,9 @@ const Footer = () => (
                 </a>
                 <a href="https://www.instagram.com/k_worwa/" target="_blank" title="Instagram" rel="noreferrer">
                     <InstagramIcon />
+                </a>
+                <a href="https://www.artstation.com/krzysiek_worwa" target="_blank" title="Artstation" rel="noreferrer">
+                    <ArtStationIcon />
                 </a>
             </IconsWrapper>
         </Adress>

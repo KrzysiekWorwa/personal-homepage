@@ -3,6 +3,7 @@ import { ReactComponent as GithubIconLink } from "./SvgIcons/githubIcon.svg";
 import { ReactComponent as FacebookIconLink } from "./SvgIcons/facebookIcon.svg";
 import { ReactComponent as LinkedinIconLink } from "./SvgIcons/linkedinIcon.svg";
 import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.svg";
+import { ReactComponent as ArtStationIconLink } from "./SvgIcons/artstation.svg"
 
 export const FooterSection = styled.footer`
     margin-top: 120px;
@@ -66,6 +67,7 @@ export const IconsWrapper = styled.div`
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin: 40px 0;
         gap: 16px;
+        justify-content: center;
 }
 `;
 
@@ -103,6 +105,17 @@ export const LinkedinIcon = styled(LinkedinIconLink)`
 `;
 
 export const InstagramIcon = styled(InstagramIconLink)`
+    width: 48px;
+    height: 48px;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    transition: color 0.3s;
+
+        &:hover {
+        color: ${({ theme }) => theme.colors.Link};
+    }
+`;
+
+export const ArtStationIcon = styled(ArtStationIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
