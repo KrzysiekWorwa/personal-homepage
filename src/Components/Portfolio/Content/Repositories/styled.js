@@ -10,7 +10,7 @@ export const List = styled.ul`
     margin-top: 24px;
     margin-bottom: 32px;
 
-    @media (max-width: 991px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
         margin-bottom: 24px;
@@ -31,8 +31,21 @@ export const Tile = styled.li`
         border-color: rgba(3, 102, 214, 0.2);
     }
 
+    &:nth-last-child(1):nth-child(odd) {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding: 20px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+                
+        &:nth-last-child(1):nth-child(odd) {
+            grid-column: auto;
+            justify-self: auto;
+    }
     }
 `;
 
