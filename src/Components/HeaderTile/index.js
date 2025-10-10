@@ -17,7 +17,7 @@ const HeaderTile = () => (
         <HeaderContent>
             <HeaderCaption>THIS IS</HeaderCaption>
             <HeaderTitle>Krzysztof Worwa</HeaderTitle>
-            <HeaderDescription>I'm a passionate Junior Frontend Developer also in love in 3D Graphics. Currently looking for new job opportunities.</HeaderDescription>
+            <HeaderDescription>Frontend Developer with a solid knowledge of JavaScript and a focus on building modern web applications using React. I combine a passion for web development with a love for 3D graphics. I am the owner of Codify, a company specializing in web development, 3D visualization, and virtual tours.</HeaderDescription>
             <HeaderButton href="mailto:worwak1998@gmail.com" title="worwak1998@gmail.com">
                 <img src={icon} alt="" />Hire Me</HeaderButton>
         </HeaderContent>
