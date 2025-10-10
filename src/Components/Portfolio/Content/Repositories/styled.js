@@ -8,10 +8,12 @@ export const List = styled.ul`
     list-style: none;
     padding: 0;
     margin-top: 24px;
+    margin-bottom: 32px;
 
     @media (max-width: 991px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
+        margin-bottom: 24px;
     }
     `;
 

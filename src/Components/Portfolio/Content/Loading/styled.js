@@ -9,6 +9,7 @@ const rotate = keyframes`
 
 export const LoadingWrapper = styled.section`
      margin-top: 88px;
+     margin-bottom: 88px;
      text-align: center;
      font-size: 20px;
      display: grid;
@@ -16,6 +17,7 @@ export const LoadingWrapper = styled.section`
 
      @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 32px;
+        margin-bottom: 32px;
         font-size: 17px;
     }
 `;

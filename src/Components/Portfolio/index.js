@@ -1,4 +1,4 @@
-import { PortfolioHeader, PortfolioIcon, PortfolioSection, PortfolioSubTitle, PortfolioTitle } from "./styled";
+import { Portfolio3dIcon, PortfolioHeader, PortfolioIcon, PortfolioSection, PortfolioSubTitle, PortfolioTitle } from "./styled";
 import { useEffect } from "react";
 import { githubUsername } from "./githubUsername";
 import { useDispatch, useSelector } from "react-redux";
@@ -29,6 +29,12 @@ const Portfolio = () => {
                 status={repositoriesStatus}
                 repositories={repositories}
             />
+
+            <PortfolioHeader>
+                <Portfolio3dIcon />
+                <PortfolioTitle>3D Portfolio</PortfolioTitle>
+                <PortfolioSubTitle>My 3D projects</PortfolioSubTitle>
+            </PortfolioHeader>
 
         </PortfolioSection>
     );

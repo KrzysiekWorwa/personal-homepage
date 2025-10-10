@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as GitIcon } from "./gitIcon.svg";
+import { ReactComponent as ArtIcon } from "./artstation.svg";
 
 export const PortfolioSection = styled.section`
     margin-top: 72px;
@@ -19,6 +20,11 @@ export const PortfolioHeader = styled.div`
 `;
 
 export const PortfolioIcon = styled(GitIcon)`
+    justify-content: center;
+    color: ${({ theme }) => theme.colors.portfolioIcon};
+`;
+
+export const Portfolio3dIcon = styled(ArtIcon)`
     justify-content: center;
     color: ${({ theme }) => theme.colors.portfolioIcon};
 `;
