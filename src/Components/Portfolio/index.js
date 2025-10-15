@@ -4,6 +4,8 @@ import { githubUsername } from "./githubUsername";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectRepositories, selectRepositoriesStatus } from "../../features/personalHomepage/personalHomepageSlice";
 import { Content } from "./Content";
+import Gallery from "./Gallery";
+import { images } from "./Gallery/images";
 
 const Portfolio = () => {
 
@@ -35,6 +37,8 @@ const Portfolio = () => {
                 <PortfolioTitle>3D Portfolio</PortfolioTitle>
                 <PortfolioSubTitle>My 3D projects</PortfolioSubTitle>
             </PortfolioHeader>
+
+            <Gallery images={images} />
 
         </PortfolioSection>
     );

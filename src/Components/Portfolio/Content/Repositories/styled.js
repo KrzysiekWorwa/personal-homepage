@@ -7,13 +7,12 @@ export const List = styled.ul`
     grid-gap: 32px;
     list-style: none;
     padding: 0;
-    margin-top: 24px;
-    margin-bottom: 32px;
+    margin: 32px 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
-        margin-bottom: 24px;
+        margin: 24px;
     }
     `;
 

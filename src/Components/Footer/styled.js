@@ -6,7 +6,7 @@ import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.sv
 import { ReactComponent as ArtStationIconLink } from "./SvgIcons/artstation.svg"
 
 export const FooterSection = styled.footer`
-    margin-top: 120px;
+    margin-top: 72px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin-top: 48px;
