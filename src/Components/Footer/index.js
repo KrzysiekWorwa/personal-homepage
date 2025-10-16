@@ -10,7 +10,7 @@ const Footer = () => (
                 <EmailLink href="mailto:codify.kontakt@gmail.com" title="codify.kontakt@gmail.com">codify.kontakt@gmail.com</EmailLink>
             </EmailWrapper>
             <Info>
-                I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to contact me 🤞
+                I'm always excited for new challenges! Whether it’s a website, mobile app, product visualization, or a virtual tour, I specialize in turning ideas into reality. Ready to contribute and help a forward-thinking team succeed. If you’re looking for a new team member, let’s connect to discuss the next project we can build together. 🤞
             </Info>
             <IconsWrapper>
                 <a href="https://github.com/KrzysiekWorwa" target="_blank" title="Github" rel="noreferrer">
