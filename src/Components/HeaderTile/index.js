@@ -7,7 +7,7 @@ import {
     HeaderSection,
     HeaderTitle
 } from "./styled";
-import image from "./Images/Codify_logo.png"
+import image from "./Images/Krzysiek.webp"
 import icon from "./Images/icon.png"
 
 const HeaderTile = () => (

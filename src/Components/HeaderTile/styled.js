@@ -16,7 +16,8 @@ align-items: center;
 export const HeaderImage = styled.img`
     width: clamp(128px, 30vw, 384px);
     height: clamp(128px, 30vw, 384px);
-border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
 
 @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     width: 128px;
