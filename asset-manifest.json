@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "./static/css/main.2e6d0aed.css",
-    "main.js": "./static/js/main.a2aff9f7.js",
+    "main.js": "./static/js/main.fa7abb21.js",
     "static/js/453.61d4ab14.chunk.js": "./static/js/453.61d4ab14.chunk.js",
+    "static/media/czorsztynianka-niedzica.png": "./static/media/czorsztynianka-niedzica.abf7a56cb0c02563996c.png",
+    "static/media/apartment-erica.png": "./static/media/apartment-erica.b35ba5bef509e0a46f33.png",
+    "static/media/czorsztynianka-czorsztyn.png": "./static/media/czorsztynianka-czorsztyn.7ea32ec9954a12408ac7.png",
+    "static/media/apartment-erica-deluxe.png": "./static/media/apartment-erica-deluxe.7c1dc9859cdba3527794.png",
     "static/media/automat_3.webp": "./static/media/automat_3.83fe2a6c73a99268ae30.webp",
     "static/media/Peachtree_DJka.webp": "./static/media/Peachtree_DJka.2c2ee07b3f91baa9d789.webp",
     "static/media/Tray.webp": "./static/media/Tray.8450e57877b1db4dfa37.webp",
     "static/media/fountain.webp": "./static/media/fountain.35ab0522f3e1754ba8dc.webp",
     "static/media/Bar_2.webp": "./static/media/Bar_2.d3354b641186a01056e1.webp",
-    "static/media/Krzysiek.webp": "./static/media/Krzysiek.09507ff0a0a17bb10e2d.webp",
+    "static/media/Profilowe.webp": "./static/media/Profilowe.460b6955b1c68d85f786.webp",
     "static/media/Bar.webp": "./static/media/Bar.717c1945e536d02342d8.webp",
     "static/media/automat_4.webp": "./static/media/automat_4.6b49544371e68338b920.webp",
     "static/media/mill.webp": "./static/media/mill.d58a9ada92f2ceab022d.webp",
@@ -19,6 +23,7 @@
     "static/media/instagramIcon.svg": "./static/media/instagramIcon.7bad0c3cde2835fa701a1538d5bc741b.svg",
     "static/media/githubIcon.svg": "./static/media/githubIcon.c61bd8a260111596bc01401effae4bb5.svg",
     "static/media/sun.svg": "./static/media/sun.d66c679c126400e681cb11ff98422e0b.svg",
+    "static/media/panoee.svg": "./static/media/panoee.e9a79e07f1faf3e91f704c5b49cc4406.svg",
     "static/media/gitIcon.svg": "./static/media/gitIcon.f77f8573b547bed6a5592301d39f244d.svg",
     "index.html": "./index.html",
     "static/media/errorIcon.svg": "./static/media/errorIcon.f17fd0927bf0931f751997b11fd858b2.svg",
@@ -28,11 +33,11 @@
     "static/media/Spinner.svg": "./static/media/Spinner.36c25db39ab959e11eedd46a76a83124.svg",
     "static/media/eclipse.svg": "./static/media/eclipse.7e9915f25d1b17d8656f2d0960101f58.svg",
     "main.2e6d0aed.css.map": "./static/css/main.2e6d0aed.css.map",
-    "main.a2aff9f7.js.map": "./static/js/main.a2aff9f7.js.map",
+    "main.fa7abb21.js.map": "./static/js/main.fa7abb21.js.map",
     "453.61d4ab14.chunk.js.map": "./static/js/453.61d4ab14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e6d0aed.css",
-    "static/js/main.a2aff9f7.js"
+    "static/js/main.fa7abb21.js"
   ]
 }
