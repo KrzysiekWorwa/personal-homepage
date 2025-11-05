@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.2e6d0aed.css",
-    "main.js": "./static/js/main.fa7abb21.js",
-    "static/js/453.61d4ab14.chunk.js": "./static/js/453.61d4ab14.chunk.js",
+    "main.js": "./static/js/main.5bcc1acc.js",
+    "static/js/453.dd4f5a76.chunk.js": "./static/js/453.dd4f5a76.chunk.js",
     "static/media/czorsztynianka-niedzica.png": "./static/media/czorsztynianka-niedzica.abf7a56cb0c02563996c.png",
     "static/media/apartment-erica.png": "./static/media/apartment-erica.b35ba5bef509e0a46f33.png",
     "static/media/czorsztynianka-czorsztyn.png": "./static/media/czorsztynianka-czorsztyn.7ea32ec9954a12408ac7.png",
@@ -28,16 +28,17 @@
     "index.html": "./index.html",
     "static/media/errorIcon.svg": "./static/media/errorIcon.f17fd0927bf0931f751997b11fd858b2.svg",
     "static/media/linkedinIcon.svg": "./static/media/linkedinIcon.5fac59fc662b2a089327e72909eb3444.svg",
+    "static/media/Codify-logo.svg": "./static/media/Codify-logo.2154d6f59494d51df354259b7bbc727d.svg",
     "static/media/artstation.svg": "./static/media/artstation.9c278250ece8c93d22a4f937428eafa9.svg",
     "static/media/facebookIcon.svg": "./static/media/facebookIcon.f266fa5079fb10e3e6344e3b9358ce04.svg",
     "static/media/Spinner.svg": "./static/media/Spinner.36c25db39ab959e11eedd46a76a83124.svg",
     "static/media/eclipse.svg": "./static/media/eclipse.7e9915f25d1b17d8656f2d0960101f58.svg",
     "main.2e6d0aed.css.map": "./static/css/main.2e6d0aed.css.map",
-    "main.fa7abb21.js.map": "./static/js/main.fa7abb21.js.map",
-    "453.61d4ab14.chunk.js.map": "./static/js/453.61d4ab14.chunk.js.map"
+    "main.5bcc1acc.js.map": "./static/js/main.5bcc1acc.js.map",
+    "453.dd4f5a76.chunk.js.map": "./static/js/453.dd4f5a76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e6d0aed.css",
-    "static/js/main.fa7abb21.js"
+    "static/js/main.5bcc1acc.js"
   ]
 }
