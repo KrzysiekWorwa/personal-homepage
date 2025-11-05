@@ -1,4 +1,4 @@
-import { List, Tile, Name, Description, Links, LinksRow, LinksValue, Link } from "./styled";
+import { List, Tile, Name, Description, Links, LinksRow, LinksValue, Link } from "../styled";
 
 export const Repositories = ({ repositories }) => (
     <List>

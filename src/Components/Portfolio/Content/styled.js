@@ -22,12 +22,12 @@ export const Tile = styled.li`
     box-shadow: ${({ theme }) => theme.colors.boxShadow};
     border-radius: 4px;
     border: 6px solid rgba(209, 213, 218, 0.3);
-    transition: background 0.3s;
-    transition: border-color 0.3s;
+    transition: background 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
     margin: 0;
 
     &:hover {
         border-color: rgba(3, 102, 214, 0.2);
+        transform: scale(1.03);
     }
 
     &:nth-last-child(1):nth-child(odd) {
