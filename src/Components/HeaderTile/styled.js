@@ -14,15 +14,16 @@ align-items: center;
 `;
 
 export const HeaderImage = styled.img`
-    width: clamp(128px, 30vw, 384px);
-    height: clamp(128px, 30vw, 384px);
+    width: clamp(128px, 30vw, 400px);
+    height: clamp(128px, 30vw, 400px);
     border-radius: 50%;
     object-fit: cover;
+    object-position: center 40%;
 
 @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    width: 128px;
-    height: 128px;
-    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
 }
 `;
 

@@ -70,6 +70,22 @@ export const IconsWrapper = styled.div`
         gap: 16px;
         justify-content: center;
 }
+    @media (max-width: 450px) {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+
+        & > :nth-child(5) {
+      grid-column: 2;
+        }
+
+        & > :nth-child(6) {
+      grid-column: 3;
+        }
+  }
 `;
 
 export const GithubIcon = styled(GithubIconLink)`
