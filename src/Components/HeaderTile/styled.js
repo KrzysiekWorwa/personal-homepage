@@ -69,10 +69,13 @@ align-items: center;
 gap: 16px;
 cursor: pointer;
 text-decoration: none;
-max-width: 154px;
+max-width: 154px; 
+transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 
 &:hover {
+        background-color: ${({ theme }) => theme.colors.buttonLink.buttonHover};
         border-color: ${({ theme }) => theme.colors.buttonLink.buttonHover};
+        transform: scale(1.03);
     }
 
     img {

@@ -11,6 +11,7 @@ import { themeDark, themeLight } from "./theme"
 import { ThemeProvider } from "styled-components";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
+import NavigationBar from "./components/NavigationBar";
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
   return (
     <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
       <GlobalStyle />
-      <Container>
+      <NavigationBar />
+      <Container id="home">
         <ThemeSwitch />
         <HeaderTile />
         <Tile title="My skillset includes 🛠️" body={<List skills={skills} />} />

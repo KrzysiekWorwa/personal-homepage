@@ -22,7 +22,7 @@ const Portfolio = () => {
     return (
 
         <PortfolioSection>
-            <PortfolioHeader>
+            <PortfolioHeader id="portfolio">
                 <PortfolioIcon />
                 <PortfolioTitle>Portfolio</PortfolioTitle>
                 <PortfolioSubTitle>My recent projects</PortfolioSubTitle>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                 repositories={repositories}
             />
 
-            <PortfolioHeader>
+            <PortfolioHeader id="3dPortfolio">
                 <Portfolio3dIcon />
                 <PortfolioTitle>3D Portfolio</PortfolioTitle>
                 <PortfolioSubTitle>My 3D projects</PortfolioSubTitle>
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
             <Gallery images={images} />
 
-            <PortfolioHeader>
+            <PortfolioHeader id="tourPortfolio">
                 <VirtualTourIcon />
                 <PortfolioTitle>Virtual Tour Portfolio</PortfolioTitle>
                 <PortfolioSubTitle>My Virtual Tours projects</PortfolioSubTitle>

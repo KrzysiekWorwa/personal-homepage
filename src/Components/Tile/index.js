@@ -3,7 +3,7 @@ import { SectionBody, SectionHeader,SectionUnderline, SectionTitle, Body } from 
 const Tile = ({title, body}) => (
 
     <SectionBody>
-        <SectionHeader>
+        <SectionHeader id="skillset">
             <SectionTitle>
                 {title}
             </SectionTitle>

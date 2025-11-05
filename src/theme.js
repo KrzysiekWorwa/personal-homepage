@@ -14,7 +14,7 @@ export const themeLight = {
         },
         buttonLink: {
             buttonBackground: "#0366D6",
-            buttonHover: "#8CC2FF",
+            buttonHover: "#2188FF",
         },
         tile: {
             tileBackground: "#FFFFFF",
@@ -28,6 +28,8 @@ export const themeLight = {
         boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
         PortfolioHeader: "#0366D6",
         Link: "#0366D6",
+        buttonColor: "#FFFFFF",
+        navbarColor: "#FFFFFF",
     },
 };
 
@@ -41,10 +43,10 @@ export const themeDark = {
         },
         buttonLink: {
             buttonBackground: "#2188FF",
-            buttonHover: "#6D93BE",
+            buttonHover: "#0366D6",
         },
         tile: {
-            tileBackground: "rgba(54, 54, 54, 0.72)",
+            tileBackground: "#363636b8",
             tileShadow: "#090A33",
         },
         themeSwitch: {
@@ -53,8 +55,10 @@ export const themeDark = {
         },
         portfolioIcon: "#2188FF",
         boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
-        PortfolioHeader: "FFFFFF",
+        PortfolioHeader: "#FFFFFF",
         Link: "#2188FF",
+        buttonColor: "#000000",
+        navbarColor: "#363636ff",
     },
 };
 

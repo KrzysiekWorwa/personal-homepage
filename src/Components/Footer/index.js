@@ -1,7 +1,7 @@
 import { FooterSection, LetsTalk, Adress, EmailWrapper, EmailLink, Info, IconsWrapper, GithubIcon, FacebookIcon, LinkedinIcon, InstagramIcon, ArtStationIcon, PanoeeIcon } from "./styled";
 
 const Footer = () => (
-    <FooterSection>
+    <FooterSection id="address">
         <LetsTalk>
             Let's talk!
         </LetsTalk>

@@ -12,7 +12,7 @@ import icon from "./Images/icon.png"
 
 const HeaderTile = () => (
 
-    <HeaderSection>
+    <HeaderSection id="home">
         <HeaderImage src={image} alt="Author photo" />
         <HeaderContent>
             <HeaderCaption>THIS IS</HeaderCaption>

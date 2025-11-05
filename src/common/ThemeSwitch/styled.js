@@ -4,6 +4,10 @@ import { ReactComponent as SunIcon } from "./sun.svg";
 export const Wrapper = styled.div`
     display: flex;
     justify-content: flex-end;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        padding-top: 60px;
+    }
 `;
 
 export const Button = styled.button`
