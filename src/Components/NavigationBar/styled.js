@@ -15,7 +15,7 @@ export const Navbar = styled.nav`
   display: flex;
   text-align: center;
 
-        @media (max-width: 785px) {
+        @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         height: 60px;
         background-color: ${({ theme }) => theme.colors.navbarColor};
         backdrop-filter: none;
@@ -46,7 +46,7 @@ export const NavLogo = styled(Home)`
         transform: rotate(45deg);
     }
 
-    @media (max-width: 785px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
          height: 50px;
          width: 50px;
          margin-top: 4px;
@@ -59,7 +59,7 @@ export const NavLinks = styled.div`
   margin-left: 20px;
   align-items: center;
 
-   @media (max-width: 785px) {
+   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         display: none;
   }
 `;
@@ -95,7 +95,7 @@ export const Burger = styled.div`
     }
 
 
-      @media (max-width: 785px) {
+      @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         display: flex;
   }
 `;
@@ -103,7 +103,7 @@ export const Burger = styled.div`
 export const MobileMenu = styled.div`
     display: none;
 
-    @media (max-width: 785px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         display: ${({ $open }) => ($open ? "flex" : "none")};
         position: absolute;
         top: 60px;
@@ -124,7 +124,7 @@ export const NavIcons = styled.div`
     display: flex;
     gap: 20px;
 
-          @media (max-width: 785px) {
+          @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         display: none;
   }
 `;
@@ -139,7 +139,7 @@ export const ContactButton = styled(Link)`
   border-color: ${({ theme }) => theme.colors.textPrimary};
   border-radius: 5px;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.3s ease;
   align-self: flex-start;
   font-size: 25px;
 

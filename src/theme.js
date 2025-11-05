@@ -1,5 +1,6 @@
 
 export const breakpoints = {
+    miniMobile: 450,
     mobileMax: 767,
     tabletVerticalMax: 991,
     TabletHorizontalMax: 1199,
