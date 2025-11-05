@@ -76,10 +76,11 @@ export const GithubIcon = styled(GithubIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: ${({ theme }) => theme.colors.Link};
+        transform: scale(1.03);
     }
 `;
 
@@ -87,10 +88,11 @@ export const FacebookIcon = styled(FacebookIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: ${({ theme }) => theme.colors.Link};
+        transform: scale(1.03);
     }
 `;
 
@@ -98,10 +100,11 @@ export const LinkedinIcon = styled(LinkedinIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: ${({ theme }) => theme.colors.Link};
+        transform: scale(1.03);
     }
 `;
 
@@ -109,10 +112,11 @@ export const InstagramIcon = styled(InstagramIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: ${({ theme }) => theme.colors.Link};
+        transform: scale(1.03);
     }
 `;
 
@@ -120,10 +124,11 @@ export const ArtStationIcon = styled(ArtStationIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: ${({ theme }) => theme.colors.Link};
+        transform: scale(1.03);
     }
 `;
 
@@ -131,9 +136,10 @@ export const PanoeeIcon = styled(PanoeeIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: ${({ theme }) => theme.colors.Link};
+        transform: scale(1.03);
     }
 `;

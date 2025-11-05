@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as GitIcon } from "./gitIcon.svg";
-import { ReactComponent as ArtIcon } from "./artstation.svg";
-import { ReactComponent as PanoeeIcon } from "./panoee.svg";
+import { ReactComponent as GitIcon } from "./svgIcons/gitIcon.svg";
+import { ReactComponent as ArtIcon } from "./svgIcons/artstation.svg";
+import { ReactComponent as PanoeeIcon } from "./svgIcons/panoee.svg";
 
 export const PortfolioSection = styled.section`
     margin-top: 72px;
