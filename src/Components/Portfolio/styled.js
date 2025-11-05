@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { ReactComponent as GitIcon } from "./gitIcon.svg";
 import { ReactComponent as ArtIcon } from "./artstation.svg";
+import { ReactComponent as PanoeeIcon } from "./panoee.svg";
 
 export const PortfolioSection = styled.section`
     margin-top: 72px;
@@ -27,6 +28,13 @@ export const PortfolioIcon = styled(GitIcon)`
 export const Portfolio3dIcon = styled(ArtIcon)`
     justify-content: center;
     color: ${({ theme }) => theme.colors.portfolioIcon};
+`;
+
+export const VirtualTourIcon = styled(PanoeeIcon)`
+    justify-content: center;
+    color: ${({ theme }) => theme.colors.portfolioIcon};
+    width: 48px;
+    height: 48px;
 `;
 
 export const PortfolioTitle = styled.h2`

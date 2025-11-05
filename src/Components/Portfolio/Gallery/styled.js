@@ -4,7 +4,7 @@ export const GalleryWrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 32px;
+    padding: 32px 0;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
         padding-top: 24px;

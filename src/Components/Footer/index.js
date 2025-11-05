@@ -28,7 +28,7 @@ const Footer = () => (
                 <a href="https://www.artstation.com/krzysiek_worwa" target="_blank" title="Artstation" rel="noreferrer">
                     <ArtStationIcon />
                 </a>
-                <a href="https://www.artstation.com/krzysiek_worwa" target="_blank" title="Artstation" rel="noreferrer">
+                <a href="https://portfolio.panoee.com/codify.kontakt@gmail.com" target="_blank" title="Panoee" rel="noreferrer">
                     <PanoeeIcon />
                 </a>
             </IconsWrapper>

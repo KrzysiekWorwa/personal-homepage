@@ -103,3 +103,28 @@ export const Link = styled.a`
         border-color: unset;
     }
 `;
+
+export const ImageLink = styled.a`
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+`;
+
+export const ImagePreview = styled.img`
+    width: 100%;
+    height: auto;
+    max-width: 480px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: block;
+    margin-top: 16px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        max-width: 100%;
+        border-radius: 4px;
+    }
+`;
