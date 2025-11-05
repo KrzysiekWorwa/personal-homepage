@@ -4,6 +4,7 @@ import { ReactComponent as FacebookIconLink } from "./SvgIcons/facebookIcon.svg"
 import { ReactComponent as LinkedinIconLink } from "./SvgIcons/linkedinIcon.svg";
 import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.svg";
 import { ReactComponent as ArtStationIconLink } from "./SvgIcons/artstation.svg"
+import { ReactComponent as PanoeeIconLink } from "./SvgIcons/panoee.svg"
 
 export const FooterSection = styled.footer`
     margin-top: 72px;
@@ -116,6 +117,17 @@ export const InstagramIcon = styled(InstagramIconLink)`
 `;
 
 export const ArtStationIcon = styled(ArtStationIconLink)`
+    width: 48px;
+    height: 48px;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    transition: color 0.3s;
+
+        &:hover {
+        color: ${({ theme }) => theme.colors.Link};
+    }
+`;
+
+export const PanoeeIcon = styled(PanoeeIconLink)`
     width: 48px;
     height: 48px;
     color: ${({ theme }) => theme.colors.textPrimary};

@@ -1,4 +1,4 @@
-import { FooterSection, LetsTalk, Adress, EmailWrapper, EmailLink, Info, IconsWrapper, GithubIcon, FacebookIcon, LinkedinIcon, InstagramIcon, ArtStationIcon } from "./styled";
+import { FooterSection, LetsTalk, Adress, EmailWrapper, EmailLink, Info, IconsWrapper, GithubIcon, FacebookIcon, LinkedinIcon, InstagramIcon, ArtStationIcon, PanoeeIcon } from "./styled";
 
 const Footer = () => (
     <FooterSection>
@@ -27,6 +27,9 @@ const Footer = () => (
                 </a>
                 <a href="https://www.artstation.com/krzysiek_worwa" target="_blank" title="Artstation" rel="noreferrer">
                     <ArtStationIcon />
+                </a>
+                <a href="https://www.artstation.com/krzysiek_worwa" target="_blank" title="Artstation" rel="noreferrer">
+                    <PanoeeIcon />
                 </a>
             </IconsWrapper>
         </Adress>
