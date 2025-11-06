@@ -24,6 +24,7 @@ export const Tile = styled.li`
     border: 6px solid rgba(209, 213, 218, 0.3);
     transition: background 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
     margin: 0;
+    max-width: 600px;
 
     &:hover {
         border-color: rgba(3, 102, 214, 0.2);
