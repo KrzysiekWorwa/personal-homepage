@@ -40,7 +40,7 @@ const NavigationBar = () => {
                     <NavLogo />
                 </Link>
 
-                <Burger ref={burgerRef} $open={isOpen} onClick={() => setIsOpen(!isOpen)}>
+                <Burger ref={burgerRef}  $open={isOpen}onClick={() => setIsOpen(!isOpen)}>
                     <div />
                     <div />
                     <div />
@@ -74,19 +74,19 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-50} onClick={handleLinkClick}>
                         About me
                     </NavItem>
-                    <NavItem to="skillset" smooth={true} duration={600} offset={-350} onClick={handleLinkClick}>
+                    <NavItem to="skillset" smooth={true} duration={600} offset={-80} onClick={handleLinkClick}>
                         Skillset
                     </NavItem>
-                    <NavItem to="portfolio" smooth={true} duration={800} offset={-350} onClick={handleLinkClick}>
+                    <NavItem to="portfolio" smooth={true} duration={800} offset={-80} onClick={handleLinkClick}>
                         Portfolio
                     </NavItem>
-                    <NavItem to="3dPortfolio" smooth={true} duration={1000} offset={-340} onClick={handleLinkClick}>
+                    <NavItem to="3dPortfolio" smooth={true} duration={1000} offset={-80} onClick={handleLinkClick}>
                         3D projects
                     </NavItem>
-                    <NavItem to="tourPortfolio" smooth={true} duration={1000} offset={-340} onClick={handleLinkClick}>
+                    <NavItem to="tourPortfolio" smooth={true} duration={1000} offset={-80} onClick={handleLinkClick}>
                         Virtual Tours
                     </NavItem>
-                    <NavItem to="address" smooth={true} duration={1000} offset={-350} onClick={handleLinkClick}>
+                    <NavItem to="address" smooth={true} duration={1000} offset={-80} onClick={handleLinkClick}>
                         Contact
                     </NavItem>
                 </MobileMenu>
