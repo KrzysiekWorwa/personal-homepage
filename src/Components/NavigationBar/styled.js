@@ -92,11 +92,28 @@ export const Burger = styled.div`
         height: 3px;
         background: ${({ theme }) => theme.colors.textPrimary};
         border-radius: 2px;
-    }
+        transition: all 0.3s ease;
+        transform-origin: center;
+  }
 
+      ${({ $open }) =>
+        $open &&
+        `
+        & div:nth-child(1) {
+          transform: rotate(45deg);
+          position: absolute; /* nakłada kreski na siebie */
+        }
+        & div:nth-child(2) {
+          opacity: 0;
+        }
+        & div:nth-child(3) {
+          transform: rotate(-45deg);
+          position: absolute; /* nakłada kreski na siebie */
+        }
+      `}
 
-      @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        display: flex;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    display: flex;
   }
 `;
 
@@ -104,7 +121,11 @@ export const MobileMenu = styled.div`
     display: none;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        display: ${({ $open }) => ($open ? "flex" : "none")};
+        opacity: ${({ $open }) => ($open ? 1 : 0)};
+        pointer-events: ${({ $open }) => ($open ? "auto" : "none")};
+        transform: translateY(${({ $open }) => ($open ? "0" : "-10px")});
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        display: flex;
         position: absolute;
         top: 60px;
         left: 0;
